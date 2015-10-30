@@ -37,12 +37,12 @@
                             <ul class="primary-nav">
                                 <li><a href="#features">Studies</a></li>
                                 <li><a href="#assets">Events</a></li>
-                                <li><a href="#blog">About Us</a></li>
-                                <li><a href="#download">Contact Us</a></li>
+                                <li><a href="#about_us">About Us</a></li>
+                                <li><a href="#contact_us">Contact Us</a></li>
                             </ul>
                             <ul class="member-actions">
                                 <li><a href="#download" class="login">Log in</a></li>
-                                <li><a href="#download" class="btn-white btn-small">Sign up</a></li>
+                                <li><a href="#sign_up" class="btn-white btn-small">Sign up</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -221,7 +221,34 @@
             </div>
         </div>
     </section>
-    <section class="testimonial-slider section-padding text-center">
+
+    <section class="sign-up section-padding text-center" id="sign_up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>REGISTER NOW</h2>
+                    <p>Share your knowledge with the Carolinian Community</p>
+                    <form class="signup-form" action="#" method="POST" role="form">
+                         <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter ID Number" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter Email Address" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-lock"></i><input type="password" class="" placeholder="Enter Password" required>
+                        </div>
+                         <div class="form-input-group">
+                            <i class="fa fa-lock"></i><input type="password" class="" placeholder="Confirm Password" required>
+                        </div>
+                        <button type="submit" class="btn-fill sign-up-btn">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-slider section-padding text-center" id="about_us">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -248,33 +275,9 @@
             </div>
         </div>
     </section>
-    <section class="sign-up section-padding text-center" id="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h2>REGISTER NOW</h2>
-                    <p>Share your knowledge with the Carolinian Community</p>
-                    <form class="signup-form" action="#" method="POST" role="form">
-                         <div class="form-input-group">
-                            <i class="fa fa-lock"></i><input type="text" class="" placeholder="Enter ID Number" required>
-                        </div>
-                        <div class="form-input-group">
-                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter Email Address" required>
-                        </div>
-                        <div class="form-input-group">
-                            <i class="fa fa-lock"></i><input type="text" class="" placeholder="Enter Password" required>
-                        </div>
-                         <div class="form-input-group">
-                            <i class="fa fa-lock"></i><input type="text" class="" placeholder="Confirm Password" required>
-                        </div>
-                        <button type="submit" class="btn-fill sign-up-btn">Sign up</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
-    <section class="intro section-padding">
+    <section class="intro section-padding" id="contact_us">
         <div class="container" align="center">
             <h2>CONTACT US</h2>
             <p>Communication made easier.</p>

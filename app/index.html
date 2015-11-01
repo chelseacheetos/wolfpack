@@ -17,19 +17,27 @@
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/set2.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/etline-font.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+   
 </head>
 <body id="top">
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+
     <section class="hero">
         <section class="navigation">
             <header>
+                <div ng-include="member/menu/navbar.tmpl.html"></div>
                 <div class="header-content">
                     <div class="logo"><a href="#"><img src="img/logowhite.png" style="height:60px;width:auto;"></a></div>
                     <div class="header-nav">
@@ -365,5 +373,7 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
     </script>
+
 </body>
+
 </html>

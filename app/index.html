@@ -17,16 +17,23 @@
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/set2.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/etline-font.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+   
 </head>
 <body id="top">
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+
     <section class="hero">
         <section class="navigation">
             <header>
@@ -35,14 +42,14 @@
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#features">Studies</a></li>
-                                <li><a href="#assets">Events</a></li>
-                                <li><a href="#blog">About Us</a></li>
-                                <li><a href="#download">Contact Us</a></li>
+                                <li><a href="show-studies.tmpl.html">Studies</a></li>
+                                <li><a href="#events">Events</a></li>
+                                <li><a href="#about_us">About Us</a></li>
+                                <li><a href="#contact_us">Contact Us</a></li>
                             </ul>
                             <ul class="member-actions">
                                 <li><a href="#download" class="login">Log in</a></li>
-                                <li><a href="#download" class="btn-white btn-small">Sign up</a></li>
+                                <li><a href="#sign_up" class="btn-white btn-small">Sign up</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -63,39 +70,7 @@
         </div>
         <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
     </section>
-    <section class="intro section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 intro-feature">
-                    <div class="intro-icon">
-                        <span data-icon="&#xe033;" class="icon"></span>
-                    </div>
-                    <div class="intro-content">
-                        <h5>CAROLINIAN PRIDE</h5>
-                        <p>please input here</p>
-                    </div>
-                </div>
-                <div class="col-md-4 intro-feature">
-                    <div class="intro-icon">
-                        <span data-icon="&#xe030;" class="icon"></span>
-                    </div>
-                    <div class="intro-content">
-                        <h5>chuva</h5>
-                        <p>please input here</p>
-                    </div>
-                </div>
-                <div class="col-md-4 intro-feature">
-                    <div class="intro-icon">
-                        <span data-icon="&#xe046;" class="icon"></span>
-                    </div>
-                    <div class="intro-content last">
-                        <h5>please input here</h5>
-                        <p>please input here</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     <section class="features section-padding" id="features">
         <div class="container">
             <div class="row">
@@ -253,7 +228,34 @@
             </div>
         </div>
     </section>
-    <section class="testimonial-slider section-padding text-center">
+
+    <section class="sign-up section-padding text-center" id="sign_up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>REGISTER NOW</h2>
+                    <p>Share your knowledge with the Carolinian Community</p>
+                    <form class="signup-form" action="#" method="POST" role="form">
+                         <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter ID Number" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter Email Address" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-lock"></i><input type="password" class="" placeholder="Enter Password" required>
+                        </div>
+                         <div class="form-input-group">
+                            <i class="fa fa-lock"></i><input type="password" class="" placeholder="Confirm Password" required>
+                        </div>
+                        <button type="submit" class="btn-fill sign-up-btn">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-slider section-padding text-center" id="about_us">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -280,25 +282,45 @@
             </div>
         </div>
     </section>
-    <section class="sign-up section-padding text-center" id="download">
-        <div class="container">
+    
+
+    <section class="intro section-padding" id="contact_us">
+        <div class="container" align="center">
+            <h2>CONTACT US</h2>
+            <p>Communication made easier.</p>
+            <br/><br/>
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h3>Get started with Sedna, absolutely free</h3>
-                    <p>Grab your copy today, exclusively from Codrops</p>
-                    <form class="signup-form" action="#" method="POST" role="form">
-                        <div class="form-input-group">
-                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required>
-                        </div>
-                        <div class="form-input-group">
-                            <i class="fa fa-lock"></i><input type="text" class="" placeholder="Enter your password" required>
-                        </div>
-                        <button type="submit" class="btn-fill sign-up-btn">Sign up for free</button>
-                    </form>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe025;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>ACADEMIC INSTITUTION</h5>
+                        <p>UNIVERSITY OF SAN CARLOS</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe028;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>SEND US A MESSAGE</h5>
+                        <p>help@wolfpack.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe004;" class="icon"></span>
+                    </div>
+                    <div class="intro-content last">
+                        <h5>GIVE US A CALL</h5>
+                        <p>00-0000</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="to-top">
         <div class="container">
             <div class="row">
@@ -315,19 +337,19 @@
                     <div class="footer-links">
                         <ul class="footer-group">
                             <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="http://tympanus.net/codrops/licensing/">Licence</a></li>
-                            <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
-                            <li><a href="http://www.peterfinlan.com/">Peter Finlan</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Donations</a></li>
                         </ul>
-                        <p>Copyright © 2015 <a href="#">Sedna</a><br>
-                        <a href="http://tympanus.net/codrops/licensing/">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
+                        <p>Copyright © 2015 <a href="#">Wolfpack TechTeam</a><br>
+                        <a href="#">Note</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="#">The Wolfpack</a>.</p>
                     </div>
                 </div>
                 <div class="social-share">
-                    <p>Share Sedna with your friends</p>
-                    <a href="https://twitter.com/peterfinlan" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
+                    <p>A WITNESS TO THE WORD? SPREAD IT.</p>
+                    <a href="https://www.twitter.com" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com" class="facebook-share"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>
         </div>
@@ -350,5 +372,7 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
     </script>
+
 </body>
+
 </html>

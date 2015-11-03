@@ -725,6 +725,117 @@ Sign up form
     color: #BCC1C3; }
   .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
     color: #BCC1C3; }
+/* ==========================================================================
+Member - Navigation bar
+========================================================================== */
+.member-navbar {
+  height: 100px;
+  background-color: #294915;
+}
+.member-navbar header {
+  padding: 20px 0px;
+}
+
+/* ==========================================================================
+Study Form
+========================================================================== */
+
+.study {
+  background-color: #F3F4F8;
+  padding-bottom: 50px;
+}
+.study .form-btn-group {
+  margin-top:5%;
+  margin-left:10%;
+}
+.study .form-btn-group .accomplish-btn {
+  color: #fff;
+  border: solid 2px #294915;
+  border-radius: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #294915;
+  border-radius: 3px;
+  width: 10%;
+  height: 45px;
+  font-size: 13px; }
+.study .form-btn-group .cancel-btn {
+  color: #fff;
+  border: solid 2px #FF2A2A;
+  border-radius: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #FF2A2A;
+  border-radius: 3px;
+  width: 10%;
+  height: 45px;
+  font-size: 13px; }
+.study .upload-btn {
+  margin-left: 10.5%;
+  color: #fff;
+  background-color: #B1B1B1;
+  border: solid 2px #B1B1B1;
+  border-radius: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #20;
+  border-radius: 3px;
+  width: 10%;
+  height: 35px;
+  font-size: 13px;
+  position: relative;
+}
+
+.study .study-form .form-input-group {
+  width: 78%;
+  height: 40px;
+  margin: 0 auto 15px;
+  margin-left: 130px;
+  border-radius: 5px;
+  border: solid 1px #E6E9EA;
+  text-align: left;
+  position: relative; }
+
+  .study .study-form .form-input-group input {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none; }
+  .study .study-form .form-input-group input::-webkit-input-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .form-input-group input:-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .form-input-group input::-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .form-input-group input:-ms-input-placeholder {
+    color: #BCC1C3; }
+
+  .study .study-form .abstract {
+  width: 78%;
+  height: 170px;
+  margin: 0 auto 30px;
+  margin-left: 130px;
+  border-radius: 5px;
+  border: solid 1px #E6E9EA;
+  text-align: left;
+  position: relative; }
+
+  .study .study-form .abstract input {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none; }
+  .study .study-form .abstract input::-webkit-input-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .abstract input:-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .abstract input::-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .abstract input:-ms-input-placeholder {
+    color: #BCC1C3; }
+
 
 /* ==========================================================================
 To top

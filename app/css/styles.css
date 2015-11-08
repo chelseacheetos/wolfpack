@@ -2,6 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+
+
+
+
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -125,7 +132,7 @@ ul li {
   list-style: none; }
 
 .section-padding {
-  padding: 120px 0; }
+  padding: 90px 0; }
 
 .tooltip {
   position: absolute;
@@ -305,7 +312,7 @@ Navigation
   width: 35px;
   height: 3px;
   border-radius: 1px;
-  background: #fff;
+  background: #21ba45;
   cursor: pointer; }
 
 .nav-toggle span:before {
@@ -348,7 +355,7 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 650px;
+  min-height: 720px;
   background: url("../img/bg.jpg") center center;
   background-size: cover;
   position: relative; }
@@ -374,9 +381,78 @@ Hero
 
 .fixed {
   position: fixed;
-  background-color: #294915;
+  background-color: #fff;
   z-index: 999;
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0px 1.5px 1px #cdcdcd; 
+}
+
+/* ==========================================================================
+Jab add ons  (DON'T TOUCH !!!!!!!!!!!!!)
+========================================================================== */
+
+
+.fixed a{
+    color: #000;
+    text-transform: uppercase;
+    font-style: bold;
+    font-size: 15px; 
+
+}
+
+.fixed ul.primary-nav{
+    margin: 0 0 0 75px;
+    padding: 0;
+}
+  .fixed ul.primary-nav li{
+    display: inline;
+  }
+    .fixed ul.primary-nav li a {
+      color: #000;
+      padding-right: 25px; 
+    }
+      .fixed ul.primary-nav li a:hover {
+          color: #21ba45; 
+        }
+    
+
+
+
+     
+        
+
+  .fixed ul.member-actions li {
+    padding-top: 20px;
+    display: inline-block; }
+    .fixed ul.member-actions li a {
+      color: #000; }
+      .fixed ul.member-actions li a:hover {
+        color: #21ba45; }
+
+          .fixed ul.member-actions li  .btn-white {
+          font-size: 13px;
+          border: solid 2px;
+          border-radius: 40px;
+          display: inline-block;
+          border-color: #000; }
+
+          .fixed ul.member-actions li  .btn-white:hover, .btn-white:focus {
+            color: #21ba45;
+            border-color: #21ba45; }
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+Jab add ons
+========================================================================== */
+
+
 
 header {
   padding: 50px 0;
@@ -423,6 +499,26 @@ header {
     top: 41px;
     -webkit-transition: all 300ms ease-in-out;
             transition: all 300ms ease-in-out; }
+
+/* ==========================================================================
+Jab add ons  (DON'T TOUCH !!!!!!!!!!!!!)
+========================================================================== */
+
+.loginbox()
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+Jab add ons  (DON'T TOUCH !!!!!!!!!!!!!)
+========================================================================== */
+
 
 .down-arrow {
   color: #fff;
@@ -640,7 +736,7 @@ Features-stack
 .testimonial-slider
 ========================================================================== */
 .testimonial-slider {
-  background: url("../img/testimonials-bg.jpg") no-repeat center center;
+  padding-top: 150px;
   background-size: cover; }
   .testimonial-slider .avatar {
     width: 82px;
@@ -725,117 +821,6 @@ Sign up form
     color: #BCC1C3; }
   .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
     color: #BCC1C3; }
-/* ==========================================================================
-Member - Navigation bar
-========================================================================== */
-.member-navbar {
-  height: 100px;
-  background-color: #294915;
-}
-.member-navbar header {
-  padding: 20px 0px;
-}
-
-/* ==========================================================================
-Study Form
-========================================================================== */
-
-.study {
-  background-color: #F3F4F8;
-  padding-bottom: 50px;
-}
-.study .form-btn-group {
-  margin-top:5%;
-  margin-left:10%;
-}
-.study .form-btn-group .accomplish-btn {
-  color: #fff;
-  border: solid 2px #294915;
-  border-radius: 3px;
-  display: inline-block;
-  text-transform: uppercase;
-  background-color: #294915;
-  border-radius: 3px;
-  width: 10%;
-  height: 45px;
-  font-size: 13px; }
-.study .form-btn-group .cancel-btn {
-  color: #fff;
-  border: solid 2px #FF2A2A;
-  border-radius: 3px;
-  display: inline-block;
-  text-transform: uppercase;
-  background-color: #FF2A2A;
-  border-radius: 3px;
-  width: 10%;
-  height: 45px;
-  font-size: 13px; }
-.study .upload-btn {
-  margin-left: 10.5%;
-  color: #fff;
-  background-color: #B1B1B1;
-  border: solid 2px #B1B1B1;
-  border-radius: 10px;
-  display: inline-block;
-  text-transform: uppercase;
-  background-color: #20;
-  border-radius: 3px;
-  width: 10%;
-  height: 35px;
-  font-size: 13px;
-  position: relative;
-}
-
-.study .study-form .form-input-group {
-  width: 78%;
-  height: 40px;
-  margin: 0 auto 15px;
-  margin-left: 130px;
-  border-radius: 5px;
-  border: solid 1px #E6E9EA;
-  text-align: left;
-  position: relative; }
-
-  .study .study-form .form-input-group input {
-    padding-left: 20px;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    border: none; }
-  .study .study-form .form-input-group input::-webkit-input-placeholder {
-    color: #BCC1C3; }
-  .study .study-form .form-input-group input:-moz-placeholder {
-    color: #BCC1C3; }
-  .study .study-form .form-input-group input::-moz-placeholder {
-    color: #BCC1C3; }
-  .study .study-form .form-input-group input:-ms-input-placeholder {
-    color: #BCC1C3; }
-
-  .study .study-form .abstract {
-  width: 78%;
-  height: 170px;
-  margin: 0 auto 30px;
-  margin-left: 130px;
-  border-radius: 5px;
-  border: solid 1px #E6E9EA;
-  text-align: left;
-  position: relative; }
-
-  .study .study-form .abstract input {
-    padding-left: 20px;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    border: none; }
-  .study .study-form .abstract input::-webkit-input-placeholder {
-    color: #BCC1C3; }
-  .study .study-form .abstract input:-moz-placeholder {
-    color: #BCC1C3; }
-  .study .study-form .abstract input::-moz-placeholder {
-    color: #BCC1C3; }
-  .study .study-form .abstract input:-ms-input-placeholder {
-    color: #BCC1C3; }
-
 
 /* ==========================================================================
 To top
@@ -1275,3 +1260,115 @@ you can use the generic selector below, but it's slower:
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+
+/* ==========================================================================
+Member - Navigation bar
+========================================================================== */
+.member-navbar {
+  height: 100px;
+  background-color: #294915;
+}
+.member-navbar header {
+  padding: 20px 0px;
+}
+
+/* ==========================================================================
+Study Form
+========================================================================== */
+
+.study {
+  background-color: #F3F4F8;
+  padding-bottom: 50px;
+}
+.study .form-btn-group {
+  margin-top:5%;
+  margin-left:10%;
+}
+.study .form-btn-group .accomplish-btn {
+  color: #fff;
+  border: solid 2px #294915;
+  border-radius: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #294915;
+  border-radius: 3px;
+  width: 10%;
+  height: 45px;
+  font-size: 13px; }
+.study .form-btn-group .cancel-btn {
+  color: #fff;
+  border: solid 2px #FF2A2A;
+  border-radius: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #FF2A2A;
+  border-radius: 3px;
+  width: 10%;
+  height: 45px;
+  font-size: 13px; }
+.study .upload-btn {
+  margin-left: 10.5%;
+  color: #fff;
+  background-color: #B1B1B1;
+  border: solid 2px #B1B1B1;
+  border-radius: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #20;
+  border-radius: 3px;
+  width: 10%;
+  height: 35px;
+  font-size: 13px;
+  position: relative;
+}
+
+.study .study-form .form-input-group {
+  width: 78%;
+  height: 40px;
+  margin: 0 auto 15px;
+  margin-left: 130px;
+  border-radius: 5px;
+  border: solid 1px #E6E9EA;
+  text-align: left;
+  position: relative; }
+
+  .study .study-form .form-input-group input {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none; }
+  .study .study-form .form-input-group input::-webkit-input-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .form-input-group input:-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .form-input-group input::-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .form-input-group input:-ms-input-placeholder {
+    color: #BCC1C3; }
+
+  .study .study-form .abstract {
+  width: 78%;
+  height: 170px;
+  margin: 0 auto 30px;
+  margin-left: 130px;
+  border-radius: 5px;
+  border: solid 1px #E6E9EA;
+  text-align: left;
+  position: relative; }
+
+  .study .study-form .abstract input {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none; }
+  .study .study-form .abstract input::-webkit-input-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .abstract input:-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .abstract input::-moz-placeholder {
+    color: #BCC1C3; }
+  .study .study-form .abstract input:-ms-input-placeholder {
+    color: #BCC1C3; }

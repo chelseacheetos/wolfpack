@@ -56,6 +56,7 @@ $(document).ready(function() {
 			if (scroll >= 20) {
 				$('section.navigation').addClass('fixed');
 				$('header').css({
+					"color": "black",
 					"border-bottom": "none",
 					"padding": "20px 0"
 				});
@@ -65,6 +66,12 @@ $(document).ready(function() {
 				$('header .navicon').css({
 					"top": "34px",
 				});
+				
+
+
+				
+				document.getElementById("cidsLogo").src = "img/logoblack.png";
+
 			} else {
 				$('section.navigation').removeClass('fixed');
 				$('header').css({
@@ -77,6 +84,8 @@ $(document).ready(function() {
 				$('header .navicon').css({
 					"top": "48px",
 				});
+
+				document.getElementById("cidsLogo").src = "img/logowhite.png";
 			}
 		});
 	});
@@ -92,12 +101,23 @@ $(document).ready(function() {
 				if (target.length) {
 					$('html,body').animate({
 						scrollTop: target.offset().top
-					}, 2000);
+					}, 1000);
 					return false;
 				}
 			}
 		});
 
 	});
+	/***************** login drop down ******************/
+	$(function(){
+				$('#login').on('click',function(){
+					$('#login').addClass('animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+						function(){
+								$(this).removeClass('animed shake');
+						});
+				});
+	});
+
+
 
 });
